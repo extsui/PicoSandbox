@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/Build/generated/pico_base",
+        "${workspaceFolder}/Build/generated",
+        "${workspaceFolder}/../../pico-sdk/src/**",
+        "${workspaceFolder}/../../pico-sdk/lib/**"
+      ],
+      "defines": [
+        "PICO_ON_DEVICE=1"
+      ],
+      "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-arm"
+    }
+  ],
+  "version": 4
+}
